@@ -1,0 +1,70 @@
+#inicio {
+    display:inline-block;
+    border: solid 4px #fff;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+/*imagen de fondo*/
+.background-image {
+    background-image: url(../images/Login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+}
+
+/*imagen de la hamburguesa*/
+.background-login {
+    background-image: url(../images/burguer.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 85%;
+}
+
+/*posicionamiento del formulario*/
+.form-w {
+    padding: 100px 10px 100px;
+    min-width: 520px;
+    margin-right: 10%;
+}
+
+
+/*margenes para los botones*/
+.mb-7 {
+    margin-bottom: 70px;
+}
+
+.mb-7-5 {
+    margin-bottom: 88px;
+}
+
+/*margen para los inputs*/
+.text-indent {
+    text-indent: 25px;
+}
+
+@media (max-width: 640px) {
+    .form-w {
+        padding: 150px 0px 100px;
+        min-width: 85%;
+        margin-right: 5%;
+    }
+    .background-login {
+        background-image: url(../images/burguer.svg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .mb-7 {
+        margin-bottom: 34px;
+    }
+    
+    .mb-7-5 {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+input:invalid:required {
+    background-image: linear-gradient(to right, rgba(226, 154, 71, 0.295), rgba(221, 134, 35, 0.932));
+  }

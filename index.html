@@ -10,14 +10,14 @@
     <link rel="shortcut icon" href="./images/burguer.svg" type="image/svg">
 </head>
 <body class="bg-secondary">
-    <div class="container-fluid vh-100 p-0 background-image d-flex justify-content-end">
+    <div class="container-fluid vh-100 p-0 background-image d-flex justify-content-end align-items-center">
          <!-- formulario de login-->
          <!-- aquí empieza formulario bootstrap-->
          <form action="" class="background-login form-w text-center" method="post" >
             <!-- cuando un formulario tiene un atributo action, indica
             a qué controlador se le envían los datos de entrada -->
             <!-- hay 2 formas principales de enviar los datos de un formulario, dos métodos: get y post-->
-            <h1 class="text-danger mb-7-5 semilla">Inicia Sesión</h1>
+            <h1 class="text-danger mb-7-5" id="inicio">Inicia Sesión</h1>
             <div class="form-floating">
                 <input type="text" class="form-control rounded-pill mb-7 text-indent" id="identificador" name="identificador" aria-describedby="identificadorHelp"  placeholder="Dame tu identificador" required>
                 <label for="identificador" class="form-label text-indent">Nombre/Em@il</label>

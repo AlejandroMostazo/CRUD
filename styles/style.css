@@ -1,13 +1,10 @@
-
-.semilla {
-    display:inline-flex;
-    border: solid 4px rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
-    width:  170px;
-    height: 110px;
-    align-items: center;
-    background-color: #ece3cd;
-    border-radius: 50% 90% 90% 50% / 70% 70% 70% 70%;
+#inicio {
+    display:inline-block;
+    border: solid 4px #fff;
+    background-color: rgb(240, 240, 240);
+    border-radius: 30px;
+    padding: 0 10px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.637);
 }
 
 /*imagen de fondo*/
@@ -23,12 +20,12 @@
     background-image: url(../images/burguer.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 85% 47%;
+    background-position: 85%;
 }
 
 /*posicionamiento del formulario*/
 .form-w {
-    padding: 100px 10px 150px;
+    padding: 100px 10px 100px;
     min-width: 520px;
     margin-right: 10%;
 }
@@ -57,14 +54,14 @@
     .background-login {
         background-image: url(../images/burguer.svg);
         background-repeat: no-repeat;
-        background-position: 50% 45%;
+        background-position: 50% 50%;
     }
     .mb-7 {
         margin-bottom: 34px;
     }
     
     .mb-7-5 {
-        margin-bottom: 35px;
+        margin-bottom: 40px;
     }
 
 }

@@ -43,7 +43,7 @@
 
 /*Hace que cuando el contenido se desborda ponga puntos suspensibos */
 .puntos {
- max-width: 150px;
+ max-width: 250px;
  white-space: nowrap;
  text-overflow: ellipsis;
  overflow: hidden;

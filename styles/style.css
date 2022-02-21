@@ -1,3 +1,12 @@
+@font-face {
+    font-family: cheese;
+    src: url(../founts/spicedcheeseDEMO.otf);
+}
+
+h1 {
+    font-family: cheese;
+}
+
 /*titulo inicio sesion*/
 #inicio {
     display:inline-block;

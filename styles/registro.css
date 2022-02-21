@@ -1,3 +1,12 @@
+@font-face {
+    font-family: cheese;
+    src: url(../founts/spicedcheeseDEMO.otf);
+}
+
+h1 {
+    font-family: cheese;
+}
+
 /*imagen de fondo*/
 .background-image {
     background-image: url(../images/registro.jpg);

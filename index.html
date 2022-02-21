@@ -11,16 +11,24 @@
 </head>
 <body class="bg-secondary">
     <div class="container-fluid vh-100 p-0 background-image d-flex justify-content-end align-items-center">
+        <div class="glass">
+            <h2>Inicia sesión o registrate ¡gratis!</h2> <br>
+            <h5>Si eres de los 5.000 primeros ¡PODRAS DISFRUTAR DE ENVIOS GRATIS! <br>
+            Aprobecha las recompensas diarias y nuestros cupones de descuento semanales <br>
+            Si ya tienes una cuenta ¿a que esperas para pedir en tu local más cercano? <br>
+
+            </h5>
+        </div>
          <!-- formulario de login-->
          <!-- aquí empieza formulario bootstrap-->
          <form action="" class="background-login form-w text-center" method="post" >
             <!-- cuando un formulario tiene un atributo action, indica
             a qué controlador se le envían los datos de entrada -->
             <!-- hay 2 formas principales de enviar los datos de un formulario, dos métodos: get y post-->
-            <h1 class="text-danger mb-7-5" id="inicio">Inicia Sesión</h1>
+            <h1 class="text-danger mb-7" id="inicio">Iniciar Sesión</h1>
             <div class="form-floating">
                 <input type="text" class="form-control rounded-pill mb-7 text-indent" id="identificador" name="identificador" aria-describedby="identificadorHelp"  placeholder="Dame tu identificador" required>
-                <label for="identificador" class="form-label text-indent">Nombre/Em@il</label>
+                <label for="identificador" class="form-label text-indent">Nombre o Em@il</label>
             </div>
             <div class="form-floating "> 
                 <input type="password" required class="form-control rounded-pill mb-5 text-indent" id="pass" name="pass" placeholder="password" aria-describedby="passHelp">
@@ -30,7 +38,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>-->
-            <button type="submit" class="btn w-75 btn-danger rounded-pill">Entrar</button>
+            <button type="submit" class="btn btn-danger rounded-pill w-25">Entrar</button>
+            <a href="insercion.html"  class="btn btn-success rounded-pill">Registrarse</a>
         </form>
         <!-- aqui termina el formulario bootstrap -->
     </div><!-- del container -->
